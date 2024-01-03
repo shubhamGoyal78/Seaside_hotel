@@ -1,0 +1,64 @@
+/* Contact.css */
+
+:root {
+  --white: #fff;
+  --black: #111;
+  --accent-color: #8257E5;
+}
+
+.contact-container {
+  min-height: 100vh;
+  background-image: url('../images/bg-contact.jpg'); /* Adjust the path as needed */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+}
+
+.header {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.title {
+  font-size: 72px;
+  font-family: "Mrs Saint Delafield", Sans-serif;
+}
+
+.second-title {
+  font-size: 42px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.card {
+  width: 412px; /* Default width for both cards */
+  height: 638px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.big-card {
+  width: 820px; /* Override width for the big card */
+}
+
+.card {
+  /* Add common styling for both cards */
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+}
